@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<productos>
+<producto SKU="SKU">
+  <nombre>Té Dharamsala</nombre>
+  <proveedor>Exotic Liquids</proveedor>
+  <precio>18.00</precio>
+  <stock>39</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Cerveza tibetana Barley</nombre>
+  <proveedor>Exotic Liquids</proveedor>
+  <precio>19.00</precio>
+  <stock>17</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Sirope de regaliz</nombre>
+  <proveedor>Exotic Liquids</proveedor>
+  <precio>10.00</precio>
+  <stock>13</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Especias Cajun del chef Anton</nombre>
+  <proveedor>New Orleans Cajun Delights</proveedor>
+  <precio>22.00</precio>
+  <stock>53</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Mezcla Gumbo del chef Anton</nombre>
+  <proveedor>New Orleans Cajun Delights</proveedor>
+  <precio>21.35</precio>
+  <stock>0</stock>
+  <suspendido>true</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Mermelada de grosellas de la abuela</nombre>
+  <proveedor>Grandma Kelly&apos;s Homestead</proveedor>
+  <precio>25.00</precio>
+  <stock>120</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Peras secas orgánicas del tío Bob</nombre>
+  <proveedor>Grandma Kelly&apos;s Homestead</proveedor>
+  <precio>30.00</precio>
+  <stock>15</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Salsa de arándanos Northwoods</nombre>
+  <proveedor>Grandma Kelly&apos;s Homestead</proveedor>
+  <precio>40.00</precio>
+  <stock>6</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Buey Mishi Kobe</nombre>
+  <proveedor>Tokyo Traders</proveedor>
+  <precio>97.00</precio>
+  <stock>29</stock>
+  <suspendido>true</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Pez espada</nombre>
+  <proveedor>Tokyo Traders</proveedor>
+  <precio>31.00</precio>
+  <stock>31</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Queso Cabrales</nombre>
+  <proveedor>Cooperativa de Quesos &apos;Las Cabras&apos;</proveedor>
+  <precio>21.00</precio>
+  <stock>22</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Queso Manchego La Pastora</nombre>
+  <proveedor>Cooperativa de Quesos &apos;Las Cabras&apos;</proveedor>
+  <precio>38.00</precio>
+  <stock>86</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Algas Konbu</nombre>
+  <proveedor>Mayumi&apos;s</proveedor>
+  <precio>6.00</precio>
+  <stock>24</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Cuajada de judías</nombre>
+  <proveedor>Mayumi&apos;s</proveedor>
+  <precio>23.25</precio>
+  <stock>35</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Salsa de soja baja en sodio</nombre>
+  <proveedor>Mayumi&apos;s</proveedor>
+  <precio>15.50</precio>
+  <stock>39</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Postre de merengue Pavlova</nombre>
+  <proveedor>Pavlova. Ltd.</proveedor>
+  <precio>17.45</precio>
+  <stock>29</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Cordero Alice Springs</nombre>
+  <proveedor>Pavlova. Ltd.</proveedor>
+  <precio>39.00</precio>
+  <stock>0</stock>
+  <suspendido>true</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Langostinos tigre Carnarvon</nombre>
+  <proveedor>Pavlova. Ltd.</proveedor>
+  <precio>62.50</precio>
+  <stock>42</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Pastas de té de chocolate</nombre>
+  <proveedor>Specialty Biscuits. Ltd.</proveedor>
+  <precio>9.20</precio>
+  <stock>25</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Mermelada de Sir Rodney&apos;s</nombre>
+  <proveedor>Specialty Biscuits. Ltd.</proveedor>
+  <precio>81.00</precio>
+  <stock>40</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Bollos de Sir Rodney&apos;s</nombre>
+  <proveedor>Specialty Biscuits. Ltd.</proveedor>
+  <precio>10.00</precio>
+  <stock>3</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Pan de centeno crujiente estilo Gustaf&apos;s</nombre>
+  <proveedor>PB Knäckebröd AB</proveedor>
+  <precio>21.00</precio>
+  <stock>104</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Pan fino</nombre>
+  <proveedor>PB Knäckebröd AB</proveedor>
+  <precio>9.00</precio>
+  <stock>61</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Refresco Guaraná Fantástica</nombre>
+  <proveedor>Refrescos Americanas LTDA</proveedor>
+  <precio>4.50</precio>
+  <stock>20</stock>
+  <suspendido>true</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Crema de chocolate y nueces NuNuCa</nombre>
+  <proveedor>Heli Süßwaren GmbH &amp; Co. KG</proveedor>
+  <precio>14.00</precio>
+  <stock>76</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Ositos de goma Gumbär</nombre>
+  <proveedor>Heli Süßwaren GmbH &amp; Co. KG</proveedor>
+  <precio>31.23</precio>
+  <stock>15</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Chocolate Schoggi</nombre>
+  <proveedor>Heli Süßwaren GmbH &amp; Co. KG</proveedor>
+  <precio>43.90</precio>
+  <stock>49</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Col fermentada Rössle</nombre>
+  <proveedor>Plutzer Lebensmittelgroßmärkte AG</proveedor>
+  <precio>45.60</precio>
+  <stock>26</stock>
+  <suspendido>true</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Salchicha Thüringer</nombre>
+  <proveedor>Plutzer Lebensmittelgroßmärkte AG</proveedor>
+  <precio>123.79</precio>
+  <stock>0</stock>
+  <suspendido>true</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Arenque blanco del noroeste</nombre>
+  <proveedor>Nord-Ost-Fisch Handelsgesellschaft mbH</proveedor>
+  <precio>25.89</precio>
+  <stock>10</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Queso gorgonzola Telino</nombre>
+  <proveedor>Formaggi Fortini s.r.l.</proveedor>
+  <precio>12.50</precio>
+  <stock>0</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Queso Mascarpone Fabioli</nombre>
+  <proveedor>Formaggi Fortini s.r.l.</proveedor>
+  <precio>32.00</precio>
+  <stock>9</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Queso de cabra</nombre>
+  <proveedor>Norske Meierier</proveedor>
+  <precio>2.50</precio>
+  <stock>112</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Cerveza Sasquatch</nombre>
+  <proveedor>Bigfoot Breweries</proveedor>
+  <precio>14.00</precio>
+  <stock>111</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Cerveza negra Steeleye</nombre>
+  <proveedor>Bigfoot Breweries</proveedor>
+  <precio>18.00</precio>
+  <stock>20</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Escabeche de arenque</nombre>
+  <proveedor>Svensk Sjöföda AB</proveedor>
+  <precio>19.00</precio>
+  <stock>112</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Salmón ahumado Gravad</nombre>
+  <proveedor>Svensk Sjöföda AB</proveedor>
+  <precio>26.00</precio>
+  <stock>11</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Vino Côte de Blaye</nombre>
+  <proveedor>Aux joyeux ecclésiastiques</proveedor>
+  <precio>263.50</precio>
+  <stock>17</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Licor verde Chartreuse</nombre>
+  <proveedor>Aux joyeux ecclésiastiques</proveedor>
+  <precio>18.00</precio>
+  <stock>69</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Carne de cangrejo de Boston</nombre>
+  <proveedor>New England Seafood Cannery</proveedor>
+  <precio>18.40</precio>
+  <stock>123</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Crema de almejas estilo Nueva Inglaterra</nombre>
+  <proveedor>New England Seafood Cannery</proveedor>
+  <precio>9.65</precio>
+  <stock>85</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Tallarines de Singapur</nombre>
+  <proveedor>Leka Trading</proveedor>
+  <precio>14.00</precio>
+  <stock>26</stock>
+  <suspendido>true</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Café de Malasia</nombre>
+  <proveedor>Leka Trading</proveedor>
+  <precio>46.00</precio>
+  <stock>17</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Azúcar negra Malacca</nombre>
+  <proveedor>Leka Trading</proveedor>
+  <precio>19.45</precio>
+  <stock>27</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Arenque ahumado</nombre>
+  <proveedor>Lyngbysild</proveedor>
+  <precio>9.50</precio>
+  <stock>5</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Arenque salado</nombre>
+  <proveedor>Lyngbysild</proveedor>
+  <precio>12.00</precio>
+  <stock>95</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Galletas Zaanse</nombre>
+  <proveedor>Zaanse Snoepfabriek</proveedor>
+  <precio>9.50</precio>
+  <stock>36</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Chocolate holandés</nombre>
+  <proveedor>Zaanse Snoepfabriek</proveedor>
+  <precio>12.75</precio>
+  <stock>15</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Regaliz</nombre>
+  <proveedor>Karkki Oy</proveedor>
+  <precio>20.00</precio>
+  <stock>10</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Chocolate blanco</nombre>
+  <proveedor>Karkki Oy</proveedor>
+  <precio>16.25</precio>
+  <stock>65</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Manzanas secas Manjimup</nombre>
+  <proveedor>G&apos;day. Mate</proveedor>
+  <precio>53.00</precio>
+  <stock>20</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Cereales para Filo</nombre>
+  <proveedor>G&apos;day. Mate</proveedor>
+  <precio>7.00</precio>
+  <stock>38</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Empanada de carne</nombre>
+  <proveedor>G&apos;day. Mate</proveedor>
+  <precio>32.80</precio>
+  <stock>0</stock>
+  <suspendido>true</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Empanada de cerdo</nombre>
+  <proveedor>Ma Maison</proveedor>
+  <precio>7.45</precio>
+  <stock>21</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Paté chino</nombre>
+  <proveedor>Ma Maison</proveedor>
+  <precio>24.00</precio>
+  <stock>115</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Gnocchi de la abuela Alicia</nombre>
+  <proveedor>Pasta Buttini s.r.l.</proveedor>
+  <precio>38.00</precio>
+  <stock>21</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Raviolis Angelo</nombre>
+  <proveedor>Pasta Buttini s.r.l.</proveedor>
+  <precio>19.50</precio>
+  <stock>36</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Caracoles de Borgoña</nombre>
+  <proveedor>Escargots Nouveaux</proveedor>
+  <precio>13.25</precio>
+  <stock>62</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Raclet de queso Courdavault</nombre>
+  <proveedor>Gai pâturage</proveedor>
+  <precio>55.00</precio>
+  <stock>79</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Camembert Pierrot</nombre>
+  <proveedor>Gai pâturage</proveedor>
+  <precio>34.00</precio>
+  <stock>19</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Sirope de arce</nombre>
+  <proveedor>Forêts d&apos;érables</proveedor>
+  <precio>28.50</precio>
+  <stock>113</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Tarta de azúcar</nombre>
+  <proveedor>Forêts d&apos;érables</proveedor>
+  <precio>49.30</precio>
+  <stock>17</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Sandwich de vegetales</nombre>
+  <proveedor>Pavlova. Ltd.</proveedor>
+  <precio>43.90</precio>
+  <stock>24</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Bollos de pan de Wimmer</nombre>
+  <proveedor>Plutzer Lebensmittelgroßmärkte AG</proveedor>
+  <precio>33.25</precio>
+  <stock>22</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Salsa de pimiento picante de Luisiana</nombre>
+  <proveedor>New Orleans Cajun Delights</proveedor>
+  <precio>21.05</precio>
+  <stock>76</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Especias picantes de Luisiana</nombre>
+  <proveedor>New Orleans Cajun Delights</proveedor>
+  <precio>17.00</precio>
+  <stock>4</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Cerveza Laughing Lumberjack</nombre>
+  <proveedor>Bigfoot Breweries</proveedor>
+  <precio>14.00</precio>
+  <stock>52</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Barras de pan de Escocia</nombre>
+  <proveedor>Specialty Biscuits. Ltd.</proveedor>
+  <precio>12.50</precio>
+  <stock>6</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Queso Gudbrandsdals</nombre>
+  <proveedor>Norske Meierier</proveedor>
+  <precio>36.00</precio>
+  <stock>26</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Cerveza Outback</nombre>
+  <proveedor>Pavlova. Ltd.</proveedor>
+  <precio>15.00</precio>
+  <stock>15</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Crema de queso Fløtemys</nombre>
+  <proveedor>Norske Meierier</proveedor>
+  <precio>21.50</precio>
+  <stock>26</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Queso Mozzarella Giovanni</nombre>
+  <proveedor>Formaggi Fortini s.r.l.</proveedor>
+  <precio>34.80</precio>
+  <stock>14</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Caviar rojo</nombre>
+  <proveedor>Svensk Sjöföda AB</proveedor>
+  <precio>15.00</precio>
+  <stock>101</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Queso de soja Longlife</nombre>
+  <proveedor>Tokyo Traders</proveedor>
+  <precio>10.00</precio>
+  <stock>4</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Cerveza Klosterbier Rhönbräu</nombre>
+  <proveedor>Plutzer Lebensmittelgroßmärkte AG</proveedor>
+  <precio>7.75</precio>
+  <stock>125</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Licor Cloudberry</nombre>
+  <proveedor>Karkki Oy</proveedor>
+  <precio>18.00</precio>
+  <stock>57</stock>
+  <suspendido>false</suspendido>
+</producto>
+<producto SKU="SKU">
+  <nombre>Salsa verde original Frankfurter</nombre>
+  <proveedor>Plutzer Lebensmittelgroßmärkte AG</proveedor>
+  <precio>13.00</precio>
+  <stock>32</stock>
+  <suspendido>false</suspendido>
+</producto>
+</productos>
