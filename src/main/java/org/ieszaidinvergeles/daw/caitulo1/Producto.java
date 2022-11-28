@@ -24,4 +24,29 @@ public class Producto {
         this.stock = stock;
         this.suspendido = suspendido;
     }
+
+    public String getSKU() {
+        return SKU;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getProveedor() {
+        return proveedor;
+    }
+
+    public Double getPrecio() {
+        return precio;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public boolean isSuspendido() {
+        return suspendido;
+    }
+    
 }

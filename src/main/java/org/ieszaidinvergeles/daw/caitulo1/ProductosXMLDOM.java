@@ -113,4 +113,76 @@ public class ProductosXMLDOM {
     public void mostrarArray(){
         System.out.println(catalogo.toString());
     }
+    
+    //Serializar
+    public int addDOM(Document doc,String sku, String nombre, String proveedor, String precio, String stock, String suspendido) {
+        try {
+            //se crea el objeto en el catalogo
+            catalogo.add(new ProductoBuilder().setSKU(sku)
+                                .setNombre(nombre)
+                                .setProveedor(proveedor)
+                                .setPrecio(Double.valueOf(precio))
+                                .setStock(Integer.parseInt("5"))
+                                .setSuspendido(Boolean.parseBoolean("True"))
+                                .createProducto());
+            
+            //Se crea un nodo tipo Element con nombre ‘nombre’
+            Node nodoNombre = doc.createElement("nombre");
+            //Se crea un nodo tipo texto con el título del libro
+            Node nodoNombreText = doc.createTextNode(nombre);
+            //Se añade el nodo de texto con el título como hijo del elemento Titulo
+            nodoNombre.appendChild(nodoNombreText);
+            //Se hace lo mismo que con nombre a autor 
+            Node nodoProveedor = doc.createElement("proveedor");
+            Node nodoProveedorText = doc.createTextNode(proveedor);
+            nodoProveedor.appendChild(nodoProveedorText);
+            //Se hace repite con cada uno 
+            Node nodoPrecio = doc.createElement("precio");
+            Node nodoPrecioText = doc.createTextNode(precio);
+            nodoPrecio.appendChild(nodoPrecioText);
+            
+            Node nodoStock = doc.createElement("stock");
+            Node nodoStockText = doc.createTextNode(stock);
+            nodoStock.appendChild(nodoStockText);
+            
+            Node nodoSuspendido = doc.createElement("suspendido");
+            Node nodoSuspendidoText = doc.createTextNode(suspendido);
+            nodoSuspendido.appendChild(nodoSuspendidoText);
+            //Se crea un nodo de tipo elemento (<producto>)
+            Node nodoProducto = doc.createElement("producto");
+            //Al nuevo nodo producto se le añade un atributo sku
+            ((Element) nodoProducto).setAttribute("SKU", sku);
+            //Se añade a libro el nodos creados antes
+            nodoProducto.appendChild(nodoNombre);
+            nodoProducto.appendChild(nodoProveedor);
+            nodoProducto.appendChild(nodoPrecio);
+            nodoProducto.appendChild(nodoStock);
+            nodoProducto.appendChild(nodoSuspendido);
+            //Finalmente, se obtiene el primer nodo del documento y a él se le
+            //añade como hijo el nodo libro que ya tiene colgando todos sus
+            //hijos y atributos creados antes.
+            Node raiz = doc.getChildNodes().item(0);
+            raiz.appendChild(nodoProducto);
+            return 0;
+        } catch (DOMException e) {
+            System.err.println("Error " + e.getMessage());
+            return -1;
+        }
+    }
+    
+    
+    public void guardarDOMcomoFile(Path fichero){
+        try {
+            // clases necesarias finalizar la creación del archivo XML
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
+            DOMSource source = new DOMSource(doc);
+            StreamResult result = new StreamResult(fichero.toFile());
+            transformer.transform(source, result);
+        } catch (TransformerConfigurationException ex) {
+            System.err.println("Error " + ex.getMessage());
+        } catch (TransformerException ex) {
+            System.err.println("Error " + ex.getMessage());
+        }
+    }
 }

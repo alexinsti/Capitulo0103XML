@@ -24,5 +24,14 @@ public class Capitulo0103XML {
         p.abrirXMLDOM(fichero);
         System.out.println(p.recorrerDOMyAlmacenar(p.doc));
         p.mostrarArray();
+        System.out.println(p.catalogo.size());
+        
+        p.addDOM(p.doc, "SKU", "estuche", "LaCasaDelLibro", "15.65", "5", "true");
+        p.mostrarArray();
+        System.out.println(p.catalogo.size());
+        
+        p.guardarDOMcomoFile(Paths.get("datos/productos2.xml"));
+        
+        
     }
 }
