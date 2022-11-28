@@ -4,26 +4,16 @@
  */
 package org.ieszaidinvergeles.daw.caitulo1;
 
-import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.xml.parsers.ParserConfigurationException;
-import org.w3c.dom.DOMException;
+import javax.xml.parsers.SAXParserFactory;
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 
 import org.xml.sax.SAXException;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 
@@ -44,11 +34,31 @@ public class ProductosXMLSAX extends DefaultHandler{
     
     private static String qualifiedName;
     
+    
     public Document doc;
 
+    public static void leerYCrear(Path file){
+        try {
+            var readerSAX = SAXParserFactory.newInstance()
+                    .newSAXParser()
+                    .getXMLReader();
+            
+            var handler=new SAXHandler();
+            readerSAX.getContentHandler(handler);
+            readerSAX.parse(file);
+            
+        } catch (ParserConfigurationException ex) {
+            Logger.getLogger(ProductosXMLSAX.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (SAXException ex) {
+            Logger.getLogger(ProductosXMLSAX.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
-        super.characters(ch, start, length); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+        //super.characters(ch, start, length); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+        
+        
     }
 
     @Override
